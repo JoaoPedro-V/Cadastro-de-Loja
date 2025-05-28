@@ -1,10 +1,8 @@
 Estrutura das Classes 
 
  
-
 Classe Produto 
 
- 
 
 A classe Produto representa itens genéricos da loja.  
 
@@ -20,7 +18,6 @@ Métodos usados:  Construtor com parâmetros Getters e Setters
 
 Método toString(): retorna os dados do produto como string 
 
- 
 
 Classe Livro 
 
@@ -31,10 +28,8 @@ String autor;
 Ela sobrescreve o método toString() para incluir o autor na descrição 
 
  
-
 Classe Cliente 
 
- 
 
 A classe Cliente possui os seguintes atributos: 
 
@@ -51,7 +46,6 @@ Getters e Setters
 Método toString() 
 
  
-
 Classe Venda  
 
 A classe Venda armazena uma transação com:  
@@ -68,7 +62,6 @@ listarProdutos() : retorna os produtos em string
 
 toString() : exibe os dados da venda 
 
- 
 
 Classe Loja A classe Loja gerencia os dados com os vetores:  
 
@@ -82,7 +75,6 @@ Métodos usados :
 
 adicionarCliente(Cliente) 
 
- 
 
 adicionarProduto(Produto)  
 
@@ -90,7 +82,6 @@ realizarVenda(Cliente, Produto[], int)
 
 listarClientes(), listarProdutos(), listarVendas() 
 
- 
 
 Classe Principal (Main)  
 
