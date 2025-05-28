@@ -5,19 +5,19 @@ public class Loja {
     private int qtdClientes = 0;
     private int qtdProdutos = 0;
     private int qtdVendas = 0;
-
+// Adicionar Cliente a vetor
     public void adicionarCliente(Cliente c) {
         if (qtdClientes < 100) clientes[qtdClientes++] = c;
     }
-
+// Adicionar Produto
     public void adicionarProduto(Produto p) {
         if (qtdProdutos < 100) produtos[qtdProdutos++] = p;
     }
-
+// Registra uma venda
     public void realizarVenda(Cliente c, Produto[] ps, int qtdPs) {
         if (qtdVendas < 100) vendas[qtdVendas++] = new Venda(c, ps, qtdPs);
     }
-
+// Metodo de Listagem
     public String listarClientes() {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < qtdClientes; i++) {
