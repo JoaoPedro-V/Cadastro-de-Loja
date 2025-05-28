@@ -1,4 +1,5 @@
 public class Produto {
+    // Emcapsulamento
     private int id;
     private String nome;
     private double preco;
@@ -8,7 +9,7 @@ public class Produto {
         this.nome = nome;
         this.preco = preco;
     }
-
+// Getters e Setters
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
