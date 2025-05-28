@@ -18,6 +18,7 @@ public class Principal {
 
             switch (opcao) {
                 case 1:
+                    // Cadastro Clientes
                     try {
                         String nome = JOptionPane.showInputDialog("Nome do Cliente:");
                         String cpf = JOptionPane.showInputDialog("CPF (11 dígitos):");
@@ -27,6 +28,7 @@ public class Principal {
                     }
                     break;
                 case 2:
+                    // Cadastro Produto
                     String tipo = JOptionPane.showInputDialog("Digite 'L' para Livro ou qualquer outra tecla para Produto comum:");
                     int id = Integer.parseInt(JOptionPane.showInputDialog("ID do Produto:"));
                     String nome = JOptionPane.showInputDialog("Nome do Produto:");
